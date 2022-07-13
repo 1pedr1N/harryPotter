@@ -7,6 +7,10 @@ const Home: NextPage = () => {
       <Head>
         <title>Harry Characters</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          http-equiv="Content-Security-Policy"
+          content="upgrade-insecure-requests"
+        />
       </Head>
       <Harry />
     </div>

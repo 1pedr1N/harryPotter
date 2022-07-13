@@ -19,9 +19,7 @@ background-image: url('../../assets/backgroundHarryPotter.svg');
 .mainPage{
     position: relative;
 }
-.colorRed{
-    background-color: red;
-}
+
 .wrap{
     display: flex;
     flex-wrap: wrap;

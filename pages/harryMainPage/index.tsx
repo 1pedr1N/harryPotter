@@ -6,11 +6,10 @@ import HarryIcon from "../../assets/harryIcon.svg";
 import MagicWand from "../../assets/magicWand.svg";
 import Box from "../../components/Box";
 import axios from "axios";
-import useSWR from "swr";
+
 import { useState, useEffect } from "react";
 import type IHarry from "../../interfaces/interface.service.harry";
 const Harry: NextPage = () => {
-  const [loading, setLoading] = useState(false);
   const [info, setInfo] = useState<IHarry[]>([]);
   const fetchAllData = async () => {
     const response = await axios.get<IHarry[]>(
@@ -46,7 +45,7 @@ const Harry: NextPage = () => {
                   img={character.image}
                 />
               );
-            })}{" "}
+            })}
           </div>
         </div>
       </div>
