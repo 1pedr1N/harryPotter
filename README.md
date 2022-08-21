@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project who the function is show harry 
 it's so simple only view your favorite character 🧡
 ![alt text](https://media.discordapp.net/attachments/757695400894529547/996612631043506267/Captura_de_tela_2022-07-13_000225.png?width=1294&height=702)
 
-## How i can do this?
+## Why this site?
 
 My objective with this site is learning more about nextJs and useAPI, so i used HarryPotter API and code with next
 
